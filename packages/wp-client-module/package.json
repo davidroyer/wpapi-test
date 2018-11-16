@@ -1,17 +1,20 @@
 {
   "name": "@wpapi-js/wp-client-module",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "",
   "main": "lib/main.js",
   "scripts": {
     "test": "ava"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "dependencies": {
     "@types/node": "^8.0.28",
-    "@wpapi-js/wp-client": "^0.0.4",
+    "@wpapi-js/wp-client": "^0.0.5",
     "minimist": "^1.2.0"
   },
   "devDependencies": {
