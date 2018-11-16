@@ -5,7 +5,7 @@
     "build": "tsc -b packages/wp-client packages/wp-client-module",
     "test": "lerna run test",
     "clean": "rimraf packages/**/lib",
-    "release": "lerna publish"
+    "release": "lerna publish --registry=https://registry.npmjs.org/"
   },
   "devDependencies": {
     "@types/node": "^8.0.28",
