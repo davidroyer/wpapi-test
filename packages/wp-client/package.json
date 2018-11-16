@@ -1,5 +1,5 @@
 {
-  "name": "@droyer/wp-client",
+  "name": "@wpapi/wp-client",
   "version": "0.0.7",
   "description": "WP Client",
   "publishConfig": {

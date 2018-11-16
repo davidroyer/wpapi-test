@@ -1,5 +1,5 @@
 {
-  "name": "@wpapi-js/wp-client-module",
+  "name": "@wpapi/wp-client-module",
   "version": "0.0.9",
   "description": "",
   "main": "lib/main.js",

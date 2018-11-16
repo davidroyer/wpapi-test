@@ -1,4 +1,5 @@
 {
+  "name": "@wpapi-js/lerna-test",  
   "private": true,
   "scripts": {
     "bootstrap": "lerna bootstrap",

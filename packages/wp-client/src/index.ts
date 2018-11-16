@@ -1,6 +1,6 @@
 import axios from 'axios'
 
 export function logAxios() {
-  console.log('NEW3!')
+  console.log('FROM WP-CLIENT!')
   console.log(axios);
 }
