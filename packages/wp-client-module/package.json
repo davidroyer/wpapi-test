@@ -1,6 +1,6 @@
 {
-  "name": "@wpapijs/wp-client-module",
-  "version": "0.0.8",
+  "name": "@wpapi-js/wp-client-module",
+  "version": "0.0.9",
   "description": "",
   "main": "lib/main.js",
   "scripts": {
