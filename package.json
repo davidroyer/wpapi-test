@@ -16,5 +16,8 @@
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "npm": "^6.4.1"
+  }
 }
