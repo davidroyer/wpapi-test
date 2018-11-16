@@ -1,11 +1,10 @@
 {
   "name": "@wpapi-js/wp-client",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
-  "scripts": {
-  },
+  "scripts": {},
   "keywords": [],
   "author": "",
   "license": "MIT",
