@@ -1,7 +1,7 @@
 {
-  "name": "@wpapi-js/wp-client",
-  "version": "0.0.5",
-  "description": "",
+  "name": "@droyer/wp-client",
+  "version": "0.0.7",
+  "description": "WP Client",
   "publishConfig": {
     "access": "public"
   },
@@ -9,7 +9,7 @@
   "typings": "lib/index.d.ts",
   "scripts": {},
   "keywords": [],
-  "author": "",
+  "author": "David Royer",
   "license": "MIT",
   "dependencies": {
     "@types/node": "^8.0.28",
@@ -17,5 +17,16 @@
   },
   "devDependencies": {
     "typescript": "~3.0.0"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/droyer/wpapi-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/droyer/wpapi-test/issues"
+  },
+  "homepage": "https://github.com/droyer/wpapi-test#readme"
 }

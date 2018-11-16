@@ -5,11 +5,6 @@
   ],
   "npmClient": "yarn",
   "conventionalCommits": true,
-  "command": {
-    "publish": {
-      "npmClient": "npm"
-    }
-  },
   "useWorkspaces": true,
-  "version": "0.0.6"
+  "version": "0.0.7"
 }

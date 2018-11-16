@@ -1,6 +1,6 @@
 {
   "name": "@wpapi-js/wp-client-module",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "",
   "main": "lib/main.js",
   "scripts": {
@@ -25,5 +25,13 @@
     "files": [
       "lib/**/*.spec.js"
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/droyer/wpapi-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/droyer/wpapi-test/issues"
+  },
+  "homepage": "https://github.com/droyer/wpapi-test#readme"
 }
