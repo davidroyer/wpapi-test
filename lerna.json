@@ -4,6 +4,13 @@
     "packages/*"
   ],
   "npmClient": "yarn",
+  "conventionalCommits": true,
+  "command": {
+    "publish": {
+      "npmClient": "npm"
+    }
+  },  
   "useWorkspaces": true,
   "version": "0.0.1"
 }
+
