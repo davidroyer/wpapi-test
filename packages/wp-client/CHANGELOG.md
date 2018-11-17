@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.0.13"></a>
+## [0.0.13](https://github.com/droyer/wpapi-test/compare/v0.0.12...v0.0.13) (2018-11-17)
+
+
+### Bug Fixes
+
+* Setup actual WpClient Class ([6d767cf](https://github.com/droyer/wpapi-test/commit/6d767cf))
+
+
+
+
 <a name="0.0.12"></a>
 ## [0.0.12](https://github.com/droyer/wpapi-test/compare/v0.0.11...v0.0.12) (2018-11-17)
 

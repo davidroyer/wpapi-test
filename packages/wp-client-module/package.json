@@ -1,6 +1,6 @@
 {
   "name": "@wpapi/wp-client-module",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "",
   "main": "lib/main.js",
   "scripts": {
@@ -14,7 +14,7 @@
   "license": "MIT",
   "dependencies": {
     "@types/node": "^8.0.28",
-    "@wpapi/wp-client": "^0.0.12",
+    "@wpapi/wp-client": "^0.0.13",
     "minimist": "^1.2.0"
   },
   "devDependencies": {
