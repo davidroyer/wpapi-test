@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.0.12"></a>
+## [0.0.12](https://github.com/droyer/wpapi-test/compare/v0.0.11...v0.0.12) (2018-11-17)
+
+
+### Bug Fixes
+
+* **wp-client-module:** Fix dependency ([354a1f8](https://github.com/droyer/wpapi-test/commit/354a1f8))
+
+
+
+
 <a name="0.0.10"></a>
 ## [0.0.10](https://github.com/droyer/wpapi-test/compare/v0.0.9...v0.0.10) (2018-11-16)
 
