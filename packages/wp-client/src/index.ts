@@ -1,55 +1,6 @@
 import axios from "axios";
-// import Resources from './api-resources.js'
-const Resources = [
-  {
-    collectionName: 'categories',
-    singleName: 'category'
-  },
-  {
-    collectionName: 'comments',
-    singleName: 'comment'
-  },
-  {
-    collectionName: 'media',
-    singleName: 'media'
-  },
-  {
-    collectionName: 'menus',
-    singleName: 'menu'
-  },
-  {
-    collectionName: 'pages',
-    singleName: 'page'
-  },
-  {
-    collectionName: 'posts',
-    singleName: 'post'
-  },  
-  {
-    collectionName: 'tags',
-    singleName: 'tag'
-  },
-  {
-    collectionName: 'taxonomies',
-    singleName: 'taxonomy'
-  },
-  {
-    collectionName: 'statuses',
-    singleName: 'status'
-  },
-  {
-    collectionName: 'types',
-    singleName: 'type'
-  },
-  {
-    collectionName: 'users',
-    singleName: 'user'
-  }
-]
+import Resources from './utils/default-resources'
 
-// const options = {
-//   baseURL
-// };
 const DEFAULTS = {
   wpSiteUrl: '',
   namespace: 'wp/v2'
@@ -81,8 +32,7 @@ export default class WpClient {
     /**
      * Set up predefined resources methods.
      */
-    this._createDefaultResourceRoutes(Resources)
-    // this._createCustomPostRoutes()
+    this._createDefaultRoutes(Resources)
   }
 
   /**
@@ -140,7 +90,7 @@ export default class WpClient {
     return { name, description, url, home, gmt_offset, timezone_string }
   }
 
-  async _createDefaultResourceRoutes(Resources) {
+  async _createDefaultRoutes(Resources) {
     Resources.forEach(({ collectionName, singleName }) => {
       this[collectionName] = async options => {
         const { data } = await this.axios.get(`${collectionName}`, this.setConfig(options))
