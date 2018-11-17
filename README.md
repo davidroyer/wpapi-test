@@ -1,6 +1,12 @@
 # How to build TypeScript mono-repo project
 [![CircleCI](https://circleci.com/gh/Quramy/lerna-yarn-workspaces-example.svg?style=svg)](https://circleci.com/gh/Quramy/lerna-yarn-workspaces-example)
 
+## Notes
+
+THIS WORKS!
+
+Needed to create an organization `wpapi` so I could do @wpapi
+
 ## Tools
 
 * yarn: NPM client.

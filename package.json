@@ -1,12 +1,12 @@
 {
-  "name": "@wpapi-js/lerna-test",  
+  "name": "@wpapi-js/lerna-test",
   "private": true,
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "build": "tsc -b packages/wp-client packages/wp-client-module",
     "test": "lerna run test",
     "clean": "rimraf packages/**/lib",
-    "release": "lerna publish --registry=https://registry.npmjs.org/"
+    "release": "lerna publish"
   },
   "devDependencies": {
     "@types/node": "^8.0.28",
@@ -17,8 +17,5 @@
   },
   "workspaces": [
     "packages/*"
-  ],
-  "dependencies": {
-    "npm": "^6.4.1"
-  }
+  ]
 }

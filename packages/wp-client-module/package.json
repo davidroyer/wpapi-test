@@ -14,7 +14,7 @@
   "license": "MIT",
   "dependencies": {
     "@types/node": "^8.0.28",
-    "@wpapi-js/wp-client": "^0.0.5",
+    "@wpapi/wp-client": "^0.0.5",
     "minimist": "^1.2.0"
   },
   "devDependencies": {
