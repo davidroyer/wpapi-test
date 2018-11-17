@@ -6,6 +6,8 @@
     "build": "tsc -b packages/wp-client packages/wp-client-module",
     "test": "lerna run test",
     "clean": "rimraf packages/**/lib",
+    "client": "node packages/wp-client/lib",
+    "client:nuxt": "node packages/wp-client-module/lib/main.js",    
     "release": "lerna publish --registry=https://registry.npmjs.org/"
   },
   "devDependencies": {

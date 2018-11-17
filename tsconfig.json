@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es2015",
+    "target": "es5",
     "module": "commonjs",
     "declaration": true,
     "sourceMap": true,
@@ -8,7 +8,8 @@
     "baseUrl": "./packages",
     "composite": true,
     "paths": {
-      "@wpapi-js/*": ["./*/src"]
-    }
+      "@wpapi/*": ["./*/src"]
+    },
+    "lib": ["es2017"]
   }
 }
