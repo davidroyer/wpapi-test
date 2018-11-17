@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.0.14"></a>
+## [0.0.14](https://github.com/droyer/wpapi-test/compare/v0.0.13...v0.0.14) (2018-11-17)
+
+
+### Bug Fixes
+
+* **wp-client:** Needed to use `.ts` file when importing ([9677ca5](https://github.com/droyer/wpapi-test/commit/9677ca5))
+
+
+
+
 <a name="0.0.13"></a>
 ## [0.0.13](https://github.com/droyer/wpapi-test/compare/v0.0.12...v0.0.13) (2018-11-17)
 
