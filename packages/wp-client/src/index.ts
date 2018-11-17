@@ -33,6 +33,7 @@ export default class WpClient {
      * Set up predefined resources methods.
      */
     this._createDefaultRoutes(Resources)
+
   }
 
   /**
@@ -78,13 +79,13 @@ export default class WpClient {
   }
 
   async allSiteData() {
-      // @ts-ignore
+      
     const { data } = await this.axios.get(`${this.options.wpSiteUrl}/wp-json`)
     return data
   }
 
   async siteData() {
-    // @ts-ignore
+    
     const { data } = await this.axios.get(`${this.options.wpSiteUrl}/wp-json`)
     const { name, description, url, home, gmt_offset, timezone_string } = data
     return { name, description, url, home, gmt_offset, timezone_string }
@@ -115,10 +116,10 @@ export default class WpClient {
     // const postTypes = await this.postTypes()
 
     Object.entries(postTypes).forEach(([key, postObject]) => {
-      // @ts-ignore
+      
       const { rest_base } = postObject
       this[rest_base] = async options => {
-        // @ts-ignore
+        
         const { data } = await this.axios.get(`${rest_base}`, this.setConfig(options))
         return data
       }
