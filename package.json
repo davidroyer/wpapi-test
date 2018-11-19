@@ -9,7 +9,7 @@
     "client": "node packages/wp-client/lib",
     "client:nuxt": "node packages/wp-client-module/lib/main.js",    
     "release": "lerna publish --yes --registry=https://registry.npmjs.org/",
-    "setGit": "git config --global user.email 'droyer01@gmail.com'
+    "setGit": "git config --global user.email 'droyer01@gmail.com',
     git config --global user.name 'davidroyer'"
   },
   "devDependencies": {
