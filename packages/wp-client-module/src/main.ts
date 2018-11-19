@@ -5,7 +5,7 @@ async function initialize() {
   const wp = new WpClient({
     url
   });
-  wp._createCustomPostRoutes(await wp.postTypes());
+  wp.createRoutes(await wp.postTypes());
   console.log(wp);
 }
 initialize();

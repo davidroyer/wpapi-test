@@ -112,7 +112,7 @@ export default class WpClient {
     })
   }
 
-  async _createCustomPostRoutes(postTypes: object) {
+  async createRoutes(postTypes: object) {
     // const postTypes = await this.postTypes()
 
     Object.entries(postTypes).forEach(([key, postObject]) => {
