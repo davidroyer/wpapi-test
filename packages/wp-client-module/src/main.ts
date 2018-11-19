@@ -1,9 +1,9 @@
 import WpClient, { logAxios } from "@wpapi/wp-client";
-const wpSiteUrl = "https://demo1.wpapi.app";
+const url = "https://demo1.wpapi.app";
 
 async function initialize() {
   const wp = new WpClient({
-    wpSiteUrl
+    url
   });
   wp._createCustomPostRoutes(await wp.postTypes());
   console.log(wp);

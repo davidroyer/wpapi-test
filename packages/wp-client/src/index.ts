@@ -2,7 +2,7 @@ import axios from "axios";
 import Resources from './utils/default-resources'
 
 const DEFAULTS = {
-  wpSiteUrl: '',
+  url: '',
   namespace: 'wp/v2'
 }
 
@@ -21,7 +21,7 @@ export default class WpClient {
    * @var {object}
    */
   options = {  
-    wpSiteUrl: '',
+    url: '',
     namespace: 'wp/v2'      
   };
 
@@ -50,7 +50,7 @@ export default class WpClient {
    * Create base url.
    */
   _createBaseUrl() {
-    return `${this.options.wpSiteUrl}/wp-json/wp/v2/`
+    return `${this.options.url}/wp-json/wp/v2/`
   }
 
   /**
@@ -80,13 +80,13 @@ export default class WpClient {
 
   async allSiteData() {
       
-    const { data } = await this.axios.get(`${this.options.wpSiteUrl}/wp-json`)
+    const { data } = await this.axios.get(`${this.options.url}/wp-json`)
     return data
   }
 
   async siteData() {
     
-    const { data } = await this.axios.get(`${this.options.wpSiteUrl}/wp-json`)
+    const { data } = await this.axios.get(`${this.options.url}/wp-json`)
     const { name, description, url, home, gmt_offset, timezone_string } = data
     return { name, description, url, home, gmt_offset, timezone_string }
   }
