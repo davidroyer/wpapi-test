@@ -8,7 +8,7 @@
     "clean": "rimraf packages/**/lib",
     "client": "node packages/wp-client/lib",
     "client:nuxt": "node packages/wp-client-module/lib/main.js",    
-    "release": "lerna publish --registry=https://registry.npmjs.org/"
+    "release": "lerna publish --yes --registry=https://registry.npmjs.org/"
   },
   "devDependencies": {
     "@types/node": "^8.0.28",
