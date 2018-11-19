@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="0.0.16"></a>
+## [0.0.16](https://github.com/droyer/wpapi-test/compare/v0.0.15...v0.0.16) (2018-11-19)
+
+
+### Bug Fixes
+
+* Changed method name to `createRoutes` ([ee22853](https://github.com/droyer/wpapi-test/commit/ee22853))
+
+
+
+
 <a name="0.0.15"></a>
 ## [0.0.15](https://github.com/droyer/wpapi-test/compare/v0.0.14...v0.0.15) (2018-11-17)
 

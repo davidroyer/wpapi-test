@@ -1,6 +1,6 @@
 {
   "name": "@wpapi/wp-client",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "WP Client",
   "publishConfig": {
     "access": "public"
